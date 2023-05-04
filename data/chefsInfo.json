@@ -2,14 +2,15 @@
   "chefs": [
     {
       "id": 1,
-      "name": "Sadia Rahman",
+      "name": "Nasima Begum",
       "experience": 10,
       "total_recipes": 35,
       "likes": 1200,
-      "picture": "https://example.com/chef_images/sadia-rahman.jpg",
-      "bio": "Sadia Rahman is a passionate chef who specializes in traditional Bengali cuisine. With over 10 years of experience in the culinary industry, she has perfected her craft and is known for her flavorful and aromatic dishes.",
+      "picture": "https://img.freepik.com/free-vector/happy-beautiful-woman-chef-with-japanese-foods-sushi-cartoon-art-illustration_40876-2859.jpg?w=740&t=st=1683058346~exp=1683058946~hmac=57c8bd4bc4a336a037a0429df073f48d375f8c616e80d312b2d5fc27d0955e0c",
+      "bio": "Nasima Begum is a skilled chef who is known for her unique fusion Bengali dishes. With more than 10 years of experience in the culinary industry, she has developed a style that combines traditional Bengali flavors with modern cooking techniques. Nasima's specialty lies in creating fusion dishes that are both delicious and visually appealing.",
       "recipes": [
         {
+          "recipes_id": 1,
           "name": "Shorshe Ilish",
           "ingredients": [
             "Hilsa fish",
@@ -22,6 +23,7 @@
           "rating": 4.8
         },
         {
+          "recipes_id": 2,
           "name": "Chingri Malai Curry",
           "ingredients": [
             "Prawns",
@@ -34,6 +36,7 @@
           "rating": 4.5
         },
         {
+          "recipes_id": 3,
           "name": "Mishti Doi",
           "ingredients": ["Milk", "Sugar", "Yogurt", "Cardamom"],
           "method": "1. Boil the milk until it reduces to half. \n2. Add sugar and cardamom and stir well. \n3. Let it cool down to lukewarm temperature. \n4. In a separate bowl, whisk the yogurt until it becomes smooth. \n5. Add the milk mixture to the yogurt and mix well. \n6. Pour the mixture into small earthen pots. \n7. Keep it in a warm place for 6-7 hours or until set. \n8. Refrigerate before serving.",
@@ -43,26 +46,29 @@
     },
     {
       "id": 2,
-      "name": "Ahmed Hossain",
-      "experience": 8,
+      "name": "Mominul Haque",
+      "experience": 15,
       "total_recipes": 27,
       "likes": 980,
-      "picture": "https://example.com/chef_images/ahmed-hossain.jpg",
-      "bio": "Ahmed Hossain is a skilled chef who specializes in fusion Bengali cuisine. With a background in both traditional and modern cooking techniques, he has created a unique style that combines the best of both worlds.",
+      "picture": "https://img.freepik.com/free-vector/chef-character-design_1322-128.jpg?w=740&t=st=1683058016~exp=1683058616~hmac=c7cf251897818734eaf638c4b6d616bf0807ba21d927f7ae6b700722d37b5e43",
+      "bio": "Mominul Haque is a renowned chef who is famous for his traditional Bengali dishes. With more than 15 years of experience in the culinary industry, he has honed his skills to perfection. Mominul's specialty lies in creating authentic Bengali dishes, using locally sourced ingredients and traditional cooking techniques.",
       "recipes": [
         {
+          "recipes_id": 4,
           "name": "Bhuna Khichuri",
           "ingredients": ["Rice", "Lentils", "Onions", "Garlic", "Ginger"],
           "method": "1. Soak rice and lentils separately for at least 30 minutes. \n2. Heat oil in a pan and add sliced onions. \n3. Add chopped garlic and ginger and sauté for a few minutes. \n4. Add the soaked rice and lentils and stir well. \n5. Add water and salt and cook until the rice and lentils are soft. \n6. Serve hot with a side of spicy pickles.",
           "rating": 4.2
         },
         {
+          "recipes_id": 5,
           "name": "Kosha Mangsho",
           "ingredients": ["Mutton", "Onions", "Ginger", "Garlic", "Tomatoes"],
           "method": "1. Marinate the mutton with turmeric and salt. \n2. Heat oil in a pressure cooker and add sliced onions. \n3. Add chopped ginger and garlic and sauté for a few minutes. \n4. Add diced tomatoes and cook until the tomatoes are soft. \n5. Add the marinated mutton and cook until the mutton is browned. \n6. Add water and pressure cook for 20-25 minutes. \n7. Serve hot with steamed rice.",
           "rating": 4.6
         },
         {
+          "recipes_id": 6,
           "name": "Aloo Posto",
           "ingredients": [
             "Potatoes",
@@ -78,76 +84,103 @@
     {
       "id": 3,
       "name": "Keka Hossain",
-      "experience": 12,
+      "experience": 10,
       "total_recipes": 37,
       "likes": 780,
-      "picture": "https://example.com/chef_images/ahmed-hossain.jpg",
-      "bio": "Keka Hossain is a skilled chef who specializes in fusion Bengali cuisine. With a background in both traditional and modern cooking techniques, he has created a unique style that combines the best of both worlds.",
+      "picture": "https://img.freepik.com/free-vector/international-chefs-day-watercolor-illustration_23-2149655456.jpg?w=740&t=st=1683058283~exp=1683058883~hmac=eadf4b39ced85d8b1d86d9d68046487236ba40bff4d01d51e5af75f0ff54f090",
+      "bio": "Keka Hossain is a talented chef who specializes in vegetarian cuisine. With more than 10 years of experience in the culinary industry, she has developed a style that celebrates the flavors of fresh, seasonal vegetables. Keka's specialty lies in creating dishes that are healthy, nutritious, and bursting with flavor.",
       "recipes": [
         {
-            "name": "Chholar Dal",
-            "ingredients": [
-              "Chana dal",
-              "Coconut",
-              "Ginger",
-              "Cumin seeds",
-              "Bay leaves"
-            ],
-            "method": "1. Soak the chana dal in water for an hour. \n2. Boil the dal in a pressure cooker with water, bay leaves, and salt. \n3. Grind coconut, ginger, and cumin seeds into a fine paste. \n4. Heat oil in a pan and add the paste to it. \n5. Fry for a few minutes and add the boiled dal. \n6. Mix well and let it simmer for 5-7 minutes. \n7. Serve hot with rice or roti.",
-            "rating": 4.2
-          },
-          {
-            "name": "Shukto",
-            "ingredients": [
-              "Bitter gourd",
-              "Drumsticks",
-              "Potatoes",
-              "Ridge gourd",
-              "Mustard seeds"
-            ],
-            "method": "1. Slice the bitter gourd, drumsticks, potatoes, and ridge gourd into small pieces. \n2. Heat oil in a pan and add mustard seeds. \n3. Add the sliced vegetables and fry for a few minutes. \n4. Add water and salt and cover the pan. \n5. Let it cook for 10-15 minutes. \n6. Serve hot with rice.",
-            "rating": 4.4
-          },
-          {
-            "name": "Baingan Bhaja",
-            "ingredients": [
-              "Eggplant",
-              "Turmeric powder",
-              "Red chilli powder",
-              "Coriander leaves",
-              "Salt"
-            ],
-            "method": "1. Slice the eggplant into thin rounds. \n2. Sprinkle turmeric powder, red chilli powder, and salt on the slices. \n3. Heat oil in a pan and add the eggplant slices. \n4. Fry the slices on both sides until they turn golden brown. \n5. Garnish with coriander leaves and serve hot with rice.",
-            "rating": 4.6
-          }
+          "recipes_id": 7,
+          "name": "Chholar Dal",
+          "ingredients": [
+            "Chana dal",
+            "Coconut",
+            "Ginger",
+            "Cumin seeds",
+            "Bay leaves"
+          ],
+          "method": "1. Soak the chana dal in water for an hour. \n2. Boil the dal in a pressure cooker with water, bay leaves, and salt. \n3. Grind coconut, ginger, and cumin seeds into a fine paste. \n4. Heat oil in a pan and add the paste to it. \n5. Fry for a few minutes and add the boiled dal. \n6. Mix well and let it simmer for 5-7 minutes. \n7. Serve hot with rice or roti.",
+          "rating": 4.2
+        },
+        {
+          "recipes_id": 8,
+          "name": "Shukto",
+          "ingredients": [
+            "Bitter gourd",
+            "Drumsticks",
+            "Potatoes",
+            "Ridge gourd",
+            "Mustard seeds"
+          ],
+          "method": "1. Slice the bitter gourd, drumsticks, potatoes, and ridge gourd into small pieces. \n2. Heat oil in a pan and add mustard seeds. \n3. Add the sliced vegetables and fry for a few minutes. \n4. Add water and salt and cover the pan. \n5. Let it cook for 10-15 minutes. \n6. Serve hot with rice.",
+          "rating": 4.4
+        },
+        {
+          "recipes_id": 9,
+          "name": "Baingan Bhaja",
+          "ingredients": [
+            "Eggplant",
+            "Turmeric powder",
+            "Red chilli powder",
+            "Coriander leaves",
+            "Salt"
+          ],
+          "method": "1. Slice the eggplant into thin rounds. \n2. Sprinkle turmeric powder, red chilli powder, and salt on the slices. \n3. Heat oil in a pan and add the eggplant slices. \n4. Fry the slices on both sides until they turn golden brown. \n5. Garnish with coriander leaves and serve hot with rice.",
+          "rating": 4.6
+        }
       ]
     },
     {
       "id": 4,
       "name": "Rafsan Khandakar",
-      "experience": 12,
+      "experience": 20,
       "total_recipes": 37,
-      "likes": 985,
-      "picture": "https://example.com/chef_images/ahmed-hossain.jpg",
-      "bio": "Rafsan Khandakar is a skilled chef who specializes in fusion Bengali cuisine. With a background in both traditional and modern cooking techniques, he has created a unique style that combines the best of both worlds.",
+      "likes": 1285,
+      "picture": "https://img.freepik.com/free-vector/coloured-chefdesign_1152-72.jpg?w=740&t=st=1683058054~exp=1683058654~hmac=a366f9304e3d34dd8f41c0011ffd472adb51c6e19701b339c5cd48f5b4b62d24",
+      "bio": "Rafsan Khandakar is an experienced chef who specializes in biryani dishes. With more than 20 years of experience in the culinary industry, he has perfected the art of cooking biryani. Rafsan's specialty lies in creating dishes that highlight the freshness and natural flavors of the biryani.",
       "recipes": [
         {
-            "name": "Beef Biryani",
-            "ingredients": ["Beef","Basmati rice", "Yogurt","Biryani masala powder","Onions", "Tomatoes"],
-            "method": "1. Wash the basmati rice and soak it in water for 30 minutes. \n2. Heat oil in a pan and add bay leaves, cumin seeds, cardamom, cinnamon sticks, and cloves. \n3. Add sliced onions and fry until they turn golden brown. \n4. Add ginger-garlic paste and fry for a few minutes. \n5. Add diced tomatoes, biryani masala powder, turmeric powder, red chilli powder, and salt. \n6. Mix well and add diced beef. \n7. Fry until the beef is browned on all sides. \n8. Add yogurt, green chillies, coriander leaves, and mint leaves. \n9. Mix well and add water. \n10. Cover the pan and let it cook on low heat until the beef is tender. \n11. In a separate pan, boil water and add salt. \n12. Add the soaked basmati rice and cook until it's almost done. \n13. Drain the rice and spread it over the beef mixture in the pan. \n14. Cover the pan and let it cook on low heat for 10-15 minutes. \n15. Serve hot with raita and salad.",
+          "recipes_id": 10,
+          "name": "Beef Biryani",
+          "ingredients": [
+            "Beef",
+            "Basmati rice",
+            "Yogurt",
+            "Biryani masala powder",
+            "Onions",
+            "Tomatoes"
+          ],
+          "method": "1. Wash the basmati rice and soak it in water for 30 minutes. \n2. Heat oil in a pan and add bay leaves, cumin seeds, cardamom, cinnamon sticks, and cloves. \n3. Add sliced onions and fry until they turn golden brown. \n4. Add ginger-garlic paste and fry for a few minutes. \n5. Add diced tomatoes, biryani masala powder, turmeric powder, red chilli powder, and salt. \n6. Mix well and add diced beef. \n7. Fry until the beef is browned on all sides. \n8. Add yogurt, green chillies, coriander leaves, and mint leaves. \n9. Mix well and add water. \n10. Cover the pan and let it cook on low heat until the beef is tender. \n11. In a separate pan, boil water and add salt. \n12. Add the soaked basmati rice and cook until it's almost done. \n13. Drain the rice and spread it over the beef mixture in the pan. \n14. Cover the pan and let it cook on low heat for 10-15 minutes. \n15. Serve hot with raita and salad.",
           "rating": 4.7
         },
         {
-            "name": "Chicken Biryani",
-            "ingredients": ["Chicken","Basmati rice", "Yogurt","Biryani masala powder","Onions", "Tomatoes"],
-            "method": "1. Wash the basmati rice and soak it in water for 30 minutes. \n2. Heat oil in a pan and add bay leaves, cumin seeds, cardamom, cinnamon sticks, and cloves. \n3. Add sliced onions and fry until they turn golden brown. \n4. Add ginger-garlic paste and fry for a few minutes. \n5. Add diced tomatoes, biryani masala powder, turmeric powder, red chilli powder, and salt. \n6. Mix well and add diced chicken. \n7. Fry until the chicken is browned on all sides. \n8. Add yogurt, green chillies, coriander leaves, and mint leaves. \n9. Mix well and add water. \n10. Cover the pan and let it cook on low heat until the chicken is tender. \n11. In a separate pan, boil water and add salt. \n12. Add the soaked basmati rice and cook until it's almost done. \n13. Drain the rice and spread it over the chicken mixture in the pan. \n14. Cover the pan and let it cook on low heat for 10-15 minutes. \n15. Serve hot with salad.",
+          "recipes_id": 11,
+          "name": "Chicken Biryani",
+          "ingredients": [
+            "Chicken",
+            "Basmati rice",
+            "Yogurt",
+            "Biryani masala powder",
+            "Onions",
+            "Tomatoes"
+          ],
+          "method": "1. Wash the basmati rice and soak it in water for 30 minutes. \n2. Heat oil in a pan and add bay leaves, cumin seeds, cardamom, cinnamon sticks, and cloves. \n3. Add sliced onions and fry until they turn golden brown. \n4. Add ginger-garlic paste and fry for a few minutes. \n5. Add diced tomatoes, biryani masala powder, turmeric powder, red chilli powder, and salt. \n6. Mix well and add diced chicken. \n7. Fry until the chicken is browned on all sides. \n8. Add yogurt, green chillies, coriander leaves, and mint leaves. \n9. Mix well and add water. \n10. Cover the pan and let it cook on low heat until the chicken is tender. \n11. In a separate pan, boil water and add salt. \n12. Add the soaked basmati rice and cook until it's almost done. \n13. Drain the rice and spread it over the chicken mixture in the pan. \n14. Cover the pan and let it cook on low heat for 10-15 minutes. \n15. Serve hot with salad.",
           "rating": 4.8
         },
         {
-            "name": "Mutton Biryani",
-            "ingredients": ["Mutton","Basmati rice", "Yogurt","Biryani masala powder","Onions", "Tomatoes"],
-            "method": "1. Wash the basmati rice and soak it in water for 30 minutes. \n2. Heat oil in a pan and add bay leaves, cumin seeds, cardamom, cinnamon sticks, and cloves. \n3. Add sliced onions and fry until they turn golden brown. \n4. Add ginger-garlic paste and fry for a few minutes. \n5. Add diced tomatoes, biryani masala powder, turmeric powder, red chilli powder, and salt. \n6. Mix well and add diced mutton. \n7. Fry until the mutton is browned on all sides. \n8. Add yogurt, green chillies, coriander leaves, and mint leaves. \n9. Mix well and add water. \n10. Cover the pan and let it cook on low heat until the mutton is tender. \n11. In a separate pan, boil water and add salt. \n12. Add the soaked basmati rice and cook until it's almost done. \n13. Drain the rice and spread it over the mutton mixture in the pan. \n14. Cover the pan and let it cook on low heat for 10-15 minutes. \n15. Serve hot with salad.",
-            "rating": 4.9
+          "recipes_id": 12,
+          "name": "Mutton Biryani",
+          "ingredients": [
+            "Mutton",
+            "Basmati rice",
+            "Yogurt",
+            "Biryani masala powder",
+            "Onions",
+            "Tomatoes"
+          ],
+          "method": "1. Wash the basmati rice and soak it in water for 30 minutes. \n2. Heat oil in a pan and add bay leaves, cumin seeds, cardamom, cinnamon sticks, and cloves. \n3. Add sliced onions and fry until they turn golden brown. \n4. Add ginger-garlic paste and fry for a few minutes. \n5. Add diced tomatoes, biryani masala powder, turmeric powder, red chilli powder, and salt. \n6. Mix well and add diced mutton. \n7. Fry until the mutton is browned on all sides. \n8. Add yogurt, green chillies, coriander leaves, and mint leaves. \n9. Mix well and add water. \n10. Cover the pan and let it cook on low heat until the mutton is tender. \n11. In a separate pan, boil water and add salt. \n12. Add the soaked basmati rice and cook until it's almost done. \n13. Drain the rice and spread it over the mutton mixture in the pan. \n14. Cover the pan and let it cook on low heat for 10-15 minutes. \n15. Serve hot with salad.",
+          "rating": 4.9
         }
       ]
     },
@@ -157,24 +190,39 @@
       "experience": 8,
       "total_recipes": 27,
       "likes": 880,
-      "picture": "https://example.com/chef_images/ahmed-hossain.jpg",
-      "bio": "Kabita Akter is a skilled chef who specializes in fusion Bengali cuisine. With a background in both traditional and modern cooking techniques, he has created a unique style that combines the best of both worlds.",
+      "picture": "https://img.freepik.com/free-photo/cute-chef-girl-uniform-holding-pot-spoon-restaurant-mascot-character-logo-pink-background-3d-illustration-cartoon_56104-1610.jpg?w=740&t=st=1683058174~exp=1683058774~hmac=8a9626df999fc23b3ca723d2e2f9440ffcb5ecf51643b8ff41ab4b30ce0b8808",
+      "bio": "Kabita Akter is a creative chef who is known for her innovative dishes. With more than 8 years of experience in the culinary industry, she has developed a style that combines traditional Bengali flavors with modern cooking techniques. Kabita's specialty lies in creating dishes that are not only delicious but also visually stunning.",
       "recipes": [
         {
+          "recipes_id": 13,
           "name": "Rohu Fish Curry",
-          "ingredients": ["500g rohu fish", "1 onion, chopped", "2 garlic cloves, minced", "1 tomato, chopped","1 teaspoon mustard oil"],
+          "ingredients": [
+            "500g rohu fish",
+            "1 onion, chopped",
+            "2 garlic cloves, minced",
+            "1 tomato, chopped",
+            "1 teaspoon mustard oil"
+          ],
           "method": "1. Marinate the fish pieces with turmeric and salt. \n2. Heat the mustard oil in a pan. \n3. Add chopped onions and minced garlic. Fry until golden brown. \n4. Add cumin powder, coriander powder, red chilli powder, and chopped tomato. Cook until the tomato is soft. \n5. Add water and bring to a boil. \n6. Add the marinated fish pieces and let it cook for 10-15 minutes until the fish is cooked and the gravy is thickened. \n7. Serve hot with steamed rice.",
           "rating": 4.5
         },
         {
+          "recipes_id": 14,
           "name": "Kosha Mangsho",
           "ingredients": ["Mutton", "Onions", "Ginger", "Garlic", "Tomatoes"],
           "method": "1. Marinate the mutton with turmeric and salt. \n2. Heat oil in a pressure cooker and add sliced onions. \n3. Add chopped ginger and garlic and sauté for a few minutes. \n4. Add diced tomatoes and cook until the tomatoes are soft. \n5. Add the marinated mutton and cook until the mutton is browned. \n6. Add water and pressure cook for 20-25 minutes. \n7. Serve hot with steamed rice.",
           "rating": 4.7
         },
         {
+          "recipes_id": 15,
           "name": "Bengali Mustard Fish",
-          "ingredients": ["500g fish fillets", "1 onion, chopped", "2 garlic cloves, minced", "2 teaspoons mustard powder", "2 tablespoons mustard oil" ],
+          "ingredients": [
+            "500g fish fillets",
+            "1 onion, chopped",
+            "2 garlic cloves, minced",
+            "2 teaspoons mustard powder",
+            "2 tablespoons mustard oil"
+          ],
           "method": "1. Marinate the fish pieces with turmeric and salt. \n2. Heat the mustard oil in a pan. \n3. Add chopped onions and minced garlic. Fry until golden brown. \n4. Add cumin powder, coriander powder, red chilli powder, and chopped tomato. Cook until the tomato is soft. \n5. Add water and bring to a boil. \n6. Add the marinated fish pieces and let it cook for 10-15 minutes until the fish is cooked and the gravy is thickened. \n7. Serve hot with steamed rice.",
           "rating": 4.4
         }
@@ -186,48 +234,51 @@
       "experience": 6,
       "total_recipes": 25,
       "likes": 990,
-      "picture": "https://example.com/chef_images/ahmed-hossain.jpg",
-      "bio": "Rifat Hossain is a skilled chef who specializes in fusion Bengali cuisine. With a background in both traditional and modern cooking techniques, he has created a unique style that combines the best of both worlds.",
+      "picture": "https://img.freepik.com/free-vector/concept-illustration-restaurant-business_81522-1038.jpg?w=740&t=st=1683059030~exp=1683059630~hmac=6e3a2c25770b178ba9ca0c2ae0a20b93c0aec425578a75ad72a3f5e6ea240178",
+      "bio": "Rifat Hossain is a passionate chef who specializes in desserts and pastries. With more than 6 years of experience in the culinary industry, he has perfected the art of baking. Rifat's specialty lies in creating desserts that are not only delicious but also beautiful works of art.",
       "recipes": [
         {
-            "name": "Ras Malai",
-            "ingredients": [
-              "Milk",
-              "Sugar",
-              "Lemon juice",
-              "Cardamom",
-              "Saffron",
-              "Pistachios"
-            ],
-            "method": "1. Boil the milk and add lemon juice to curdle the milk. \n2. Strain the curdled milk in a muslin cloth and wash it under cold water. \n3. Squeeze out the excess water and knead the cheese until smooth. \n4. Divide the cheese into small balls and flatten them slightly. \n5. Boil water and sugar in a pot and add cardamom and saffron. \n6. Add the cheese balls to the pot and cook for 10-12 minutes. \n7. Garnish with chopped pistachios and serve chilled.",
-            "rating": 4.8
-          },
-          {
-            "name": "Chomchom",
-            "ingredients": [
-              "Milk powder",
-              "All-purpose flour",
-              "Sugar",
-              "Water",
-              "Cardamom",
-              "Saffron",
-              "Pistachios"
-            ],
-            "method": "1. In a bowl, mix milk powder and all-purpose flour. \n2. Add water gradually and knead the mixture until it forms a dough. \n3. Divide the dough into small cylindrical shapes. \n4. Boil water and sugar in a pot and add cardamom and saffron. \n5. Add the dough shapes to the pot and cook for 10-12 minutes. \n6. Take out the shapes and let them cool. \n7. Garnish with chopped pistachios and serve chilled.",
-            "rating": 4.9
-          },
-          {
-            "name": "Sandesh",
-            "ingredients": [
-              "Milk",
-              "Sugar",
-              "Lemon juice",
-              "Cardamom",
-              "Pistachios"
-            ],
-            "method": "1. Boil the milk and add lemon juice to curdle the milk. \n2. Strain the curdled milk in a muslin cloth and wash it under cold water. \n3. Squeeze out the excess water and knead the cheese until smooth. \n4. In a pan, heat sugar and a little water until it forms a syrup. \n5. Add the cheese to the pan and cook until the mixture thickens. \n6. Add cardamom and mix well. \n7. Pour the mixture into a greased dish and let it cool. \n8. Cut the sandesh into small pieces and garnish with chopped pistachios.",
-            "rating": 4.9
-          }
+          "recipes_id": 16,
+          "name": "Ras Malai",
+          "ingredients": [
+            "Milk",
+            "Sugar",
+            "Lemon juice",
+            "Cardamom",
+            "Saffron",
+            "Pistachios"
+          ],
+          "method": "1. Boil the milk and add lemon juice to curdle the milk. \n2. Strain the curdled milk in a muslin cloth and wash it under cold water. \n3. Squeeze out the excess water and knead the cheese until smooth. \n4. Divide the cheese into small balls and flatten them slightly. \n5. Boil water and sugar in a pot and add cardamom and saffron. \n6. Add the cheese balls to the pot and cook for 10-12 minutes. \n7. Garnish with chopped pistachios and serve chilled.",
+          "rating": 4.8
+        },
+        {
+          "recipes_id": 17,
+          "name": "Chomchom",
+          "ingredients": [
+            "Milk powder",
+            "All-purpose flour",
+            "Sugar",
+            "Water",
+            "Cardamom",
+            "Saffron",
+            "Pistachios"
+          ],
+          "method": "1. In a bowl, mix milk powder and all-purpose flour. \n2. Add water gradually and knead the mixture until it forms a dough. \n3. Divide the dough into small cylindrical shapes. \n4. Boil water and sugar in a pot and add cardamom and saffron. \n5. Add the dough shapes to the pot and cook for 10-12 minutes. \n6. Take out the shapes and let them cool. \n7. Garnish with chopped pistachios and serve chilled.",
+          "rating": 4.9
+        },
+        {
+          "recipes_id": 18,
+          "name": "Sandesh",
+          "ingredients": [
+            "Milk",
+            "Sugar",
+            "Lemon juice",
+            "Cardamom",
+            "Pistachios"
+          ],
+          "method": "1. Boil the milk and add lemon juice to curdle the milk. \n2. Strain the curdled milk in a muslin cloth and wash it under cold water. \n3. Squeeze out the excess water and knead the cheese until smooth. \n4. In a pan, heat sugar and a little water until it forms a syrup. \n5. Add the cheese to the pan and cook until the mixture thickens. \n6. Add cardamom and mix well. \n7. Pour the mixture into a greased dish and let it cool. \n8. Cut the sandesh into small pieces and garnish with chopped pistachios.",
+          "rating": 4.9
+        }
       ]
     }
   ]
